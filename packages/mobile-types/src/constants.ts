@@ -1,6 +1,8 @@
+import { IDocumentStatus } from "./types";
+
 const statusColors = ["#4575D4", "#FFA700", "#80B12C", "#06567D"];
 
-const statuses = [
+const docStates: IDocumentStatus[] = [
   {
     id: 0,
     name: "Черновик",
@@ -19,4 +21,4 @@ const statuses = [
   },
 ];
 
-export { statusColors, statuses };
+export { statusColors, docStates };
