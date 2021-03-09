@@ -1,4 +1,4 @@
-import { IDocumentStatus } from "./types";
+import { IDocumentStatus } from "./form";
 
 const statusColors = ["#4575D4", "#FFA700", "#80B12C", "#06567D"];
 

@@ -3,7 +3,7 @@
 // import { AppActions, AuthActions, ServiceActions } from "../store";
 
 import { IReferences, IModels } from "./data";
-import { IDocument } from "./types";
+import { IDocument } from "./document";
 
 export interface IBaseUrl {
   protocol: string;

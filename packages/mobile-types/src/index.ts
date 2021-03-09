@@ -14,7 +14,14 @@ export {
   IViewParams,
   IAppState,
 } from "./state";
-export { IDocument, IHead, IDocumentStatus } from "./types";
+export {
+  IDocumentStatus,
+  IField,
+  IListItem,
+  IDocumentParams,
+  IFilterParams,
+} from "./form";
+export { IDocument, IHead, ILine } from "./document";
 export {
   IReference,
   IRemains,
