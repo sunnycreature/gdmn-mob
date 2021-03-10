@@ -20,3 +20,8 @@ export interface ILine {
   price?: number;
   remains?: number;
 }
+
+export interface IDocumentStatus {
+  id: number;
+  name: string;
+}

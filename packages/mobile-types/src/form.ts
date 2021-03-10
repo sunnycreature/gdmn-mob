@@ -27,8 +27,3 @@ export interface IDocumentParams {
 export interface IFilterParams {
   fieldSearch: string[];
 }
-
-export interface IDocumentStatus {
-  id: number;
-  name: string;
-}
